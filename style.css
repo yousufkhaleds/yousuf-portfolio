@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --orangered-color: orangered;
+   --white-color: #fff;
+   --blue-color: blue;
+}
+
+
+body{
+    font-family: sans-serif;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    background-color: var(--white-color);
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+a:visited{
+    color: var(--blue-color);
+}
+
+footer p{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--white-color);
+}
+
+h2{
+    margin: 10px;
+}
+
+span{
+    display: block;
+    margin: 5px;
+    color: var(--orangered-color);;
+}
+
+h3{
+    margin: 10px;
+}
+
+.social-icons{
+    margin: 10px;
+}
+
+
+i{
+    font-size: 25px;
+    color: var(--orangered-color);;
+    margin: 5px;
+}
+
+@media(max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(mohammad-rahmani-gA396xahf-Q-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: var(--white-color);
+a
+}
+
+#about img {
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card i {
+    color: var(--white-color);
+    font-size: 20px;
+
+}
+
+#projects h3,
+    #skills h3,
+        #contacts h3{
+    text-align: center;
+}
+
+#contacts ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts ul li {
+    margin: 10px;
+}
+
+#contacts ul li a  {
+    text-decoration: none;
+    color: var(--blue-color);
+}
